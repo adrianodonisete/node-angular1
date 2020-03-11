@@ -1,2 +1,2 @@
-const moduloComoParam = require('./ex07_param')
-moduloComoParam('param1')
+const moduleAsParam = require('./ex07_param');
+moduleAsParam('param1');

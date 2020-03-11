@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node ex01.js"
   },
-  "author": "Leonardo Leitão",
+  "author": "Adriano Machado",
   "license": "ISC",
   "dependencies": {
     "express": "^4.14.0"

@@ -1,7 +1,7 @@
-const express = require('express')
-const server = express()
-const router = require('./ex05_routes')
+const express = require('express');
+const app = express();
+const router = require('./ex05_routes');
 
-server.use('/api', router)
+app.use('/api', router);
 
-server.listen(3000, () => console.log('Executando...'))
+app.listen(3000, () => console.log('Executando...'));

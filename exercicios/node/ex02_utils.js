@@ -1,5 +1,5 @@
-function upper(text) {
-  return text.toUpperCase()
+upper = txt => {
+  return txt.toUpperCase();
 }
 
-module.exports = { upper }
+module.exports = { upper };

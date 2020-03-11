@@ -1,11 +1,11 @@
-// console.log(process.argv)
+console.log(process.argv[2]);
 
-function temParam(param) {
+temParam = (param) => {
   return process.argv.indexOf(param) !== -1;
 }
 
-if(temParam('--producao')) {
-  console.log('Atenção total!')
+if (temParam('--producao')) {
+  console.log('Atenção total!');
 } else {
-  console.log('Tranquilo!!!')
+  console.log('Tranquilo!!!');
 }

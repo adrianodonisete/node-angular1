@@ -1,7 +1,7 @@
-let numero = 1
+let number  = 1;
 
-function exibirProximo() {
-  console.log(numero++)
+const showNext = () => {
+  console.log(number ++);
 }
 
-module.exports = { exibirProximo }
+module.exports = { showNext };
